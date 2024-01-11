@@ -1,4 +1,4 @@
-﻿namespace TreePrunServices.Core.Commom.Enum
+﻿namespace TreePrunServices.Core.Commom.Enums
 {
     public abstract class BaseEnum<T> where T : BaseEnum<T>
     {

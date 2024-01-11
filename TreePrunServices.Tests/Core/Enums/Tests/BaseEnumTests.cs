@@ -1,10 +1,10 @@
 ﻿using System.Reflection;
-using TreePrunServices.Core.Commom.Enum;
+using TreePrunServices.Core.Commom.Enums;
 
 namespace TreePrunServices.Tests.Core.Enum.Tests
 {
     [TestClass]
-    public class BaseEnumsTests
+    public class BaseEnumTests
     {
         [TestMethod]
         public void BaseEnum_ChildrenShouldHaveOnlyPrivateContructors()

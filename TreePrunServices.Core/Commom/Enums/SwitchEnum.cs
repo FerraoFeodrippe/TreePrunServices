@@ -1,5 +1,5 @@
 ﻿
-namespace TreePrunServices.Core.Commom.Enum
+namespace TreePrunServices.Core.Commom.Enums
 {
     public sealed class SwitchEnum: BaseEnum<SwitchEnum>
     {

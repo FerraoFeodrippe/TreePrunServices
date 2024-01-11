@@ -1,6 +1,6 @@
 ﻿
 using TreePrunServices.Core.Commom.Abstractions;
-using TreePrunServices.Core.Commom.Enum;
+using TreePrunServices.Core.Commom.Enums;
 using TreePrunServices.Core.Commom.ObjectValues;
 
 namespace TreePrunServices.Core.Gis.Entities

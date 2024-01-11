@@ -1,4 +1,4 @@
-﻿using TreePrunServices.Core.Commom.Enum;
+﻿using TreePrunServices.Core.Commom.Enums;
 
 namespace TreePrunServices.Tests.Core.Enum.Tests
 {
