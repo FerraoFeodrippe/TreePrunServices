@@ -4,6 +4,8 @@
     {
         private readonly double _meters = unitInMeters;
 
+        public static readonly UnitMeasure Empty = new(-1);
+
         public double GetInMeters() 
         { 
             return _meters;

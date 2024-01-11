@@ -1,17 +1,17 @@
 ﻿namespace TreePrunServices.Core.Commom.Definitions.DataFlow
 {
-    public class DataRequest<T> where T : new()
+    public class DataRequest
     {
-        public T Data { get; private set; }
+        public DataRequestValue Value { get; private set; }
 
-        private DataRequest(T data)
+        private DataRequest(DataRequestValue value)
         {
-            Data = data;  
+            Value = value;  
         }
 
-        public static DataRequest<T> Create(T data)
+        public static DataRequest Create(DataRequestValue value)
         {
-            return new DataRequest<T>(data);
+            return new DataRequest(value);
         }
     }
 }

@@ -2,7 +2,7 @@
 
 namespace TreePrunServices.Core.Commom.Definitions.DataFlow
 {
-    public class DataResponse<T> where T: new()
+    public class DataResponse<T>
     {
         public T? Data { get; private set; }
         public Error Error { get; private set; } = Error.Empty();

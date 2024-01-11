@@ -7,13 +7,13 @@ namespace TreePrunServices.Tests.Core.Definitions.DataFlow
     public class DataRequestTests
     {
         [TestMethod]
-        public void DataRequest_InputedData_ShouldBeSameData()
+        public void DataRequest_InputedDataField_ShouldBeSameData()
         {
-            int data = 99;
+            DataRequestValue data = DataRequestValue.Create("field1", 1);
 
-            var request = DataRequest<int>.Create(data);
+            var request = DataRequest.Create(data);
 
-            Assert.AreEqual(data, request.Data);
+            Assert.AreEqual(data.GetValue("field1"), request.Value.GetValue("field1"));
         }
     }
 }
