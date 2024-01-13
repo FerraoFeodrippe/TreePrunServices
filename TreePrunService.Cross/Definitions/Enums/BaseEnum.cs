@@ -1,4 +1,4 @@
-﻿namespace TreePrunServices.Core.Commom.Enums
+﻿namespace TreePrunServices.Cross.Definitions.Enums
 {
     public abstract class BaseEnum<T> where T : BaseEnum<T>
     {
@@ -11,7 +11,7 @@
                 .Where(f => f.FieldType == typeof(T) && f.GetValue(null) != null)
 #pragma warning disable CS8600 // Conversão de literal nula ou possível valor nulo em tipo não anulável.
 #pragma warning disable CS8602 // Desreferência de uma referência possivelmente nula.
-                .ToDictionary(f => ((T) f.GetValue(null)).Value, f => (T)(f.GetValue(null)) );
+                .ToDictionary(f => ((T)f.GetValue(null)).Value, f => (T)f.GetValue(null));
 #pragma warning restore CS8602 // Desreferência de uma referência possivelmente nula.
 #pragma warning restore CS8600 // Conversão de literal nula ou possível valor nulo em tipo não anulável.
 #pragma warning restore CS8619 // A anulabilidade de tipos de referência no valor não corresponde ao tipo de destino.
@@ -45,8 +45,8 @@
         public override bool Equals(object? obj)
         {
             if (obj == null) return false;
-                                   
-            BaseEnum <T> baseEnum = (BaseEnum<T>) obj;
+
+            BaseEnum<T> baseEnum = (BaseEnum<T>)obj;
 
             return Value.Equals(baseEnum.Value);
         }

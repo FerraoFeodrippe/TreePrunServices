@@ -1,4 +1,6 @@
 ﻿
+using TreePrunServices.Cross.Definitions.Enums;
+
 namespace TreePrunServices.Core.Commom.Enums
 {
     public sealed class SwitchEnum: BaseEnum<SwitchEnum>

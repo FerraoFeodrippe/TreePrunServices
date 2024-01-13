@@ -3,13 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34322.80
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreePrunServices", "TreePrunServices\TreePrunServices.csproj", "{8458C628-B0C0-4B18-ABF6-AECC05CD4D57}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreePrunServices", "TreePrunServices\TreePrunServices.csproj", "{8458C628-B0C0-4B18-ABF6-AECC05CD4D57}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreePrunServices.Core", "TreePrunServices.Core\TreePrunServices.Core.csproj", "{FFE28077-0A8E-419A-B689-83F3DFC63CAB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreePrunServices.Core", "TreePrunServices.Core\TreePrunServices.Core.csproj", "{FFE28077-0A8E-419A-B689-83F3DFC63CAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreePrunServices.Tests", "TreePrunServices.Tests\TreePrunServices.Tests.csproj", "{6738E461-8B95-42D1-9F90-C2430C99067C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreePrunServices.Tests", "TreePrunServices.Tests\TreePrunServices.Tests.csproj", "{6738E461-8B95-42D1-9F90-C2430C99067C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreePrunServices.Application", "TreePrunServices.Application\TreePrunServices.Application.csproj", "{F956B035-78AD-4842-AB40-3C4A07CAC43B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreePrunServices.Application", "TreePrunServices.Application\TreePrunServices.Application.csproj", "{F956B035-78AD-4842-AB40-3C4A07CAC43B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TreePrunServices.Infra", "TreePrunServices.Infra\TreePrunServices.Infra.csproj", "{80C7A8F3-4611-4012-AF7F-3C5A61FC30BA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreePrunServices.Cross", "TreePrunService.Cross\TreePrunServices.Cross.csproj", "{EA7A6DB7-7605-443B-A515-21A5B7B4BA59}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{F956B035-78AD-4842-AB40-3C4A07CAC43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F956B035-78AD-4842-AB40-3C4A07CAC43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F956B035-78AD-4842-AB40-3C4A07CAC43B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80C7A8F3-4611-4012-AF7F-3C5A61FC30BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80C7A8F3-4611-4012-AF7F-3C5A61FC30BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80C7A8F3-4611-4012-AF7F-3C5A61FC30BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80C7A8F3-4611-4012-AF7F-3C5A61FC30BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA7A6DB7-7605-443B-A515-21A5B7B4BA59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA7A6DB7-7605-443B-A515-21A5B7B4BA59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA7A6DB7-7605-443B-A515-21A5B7B4BA59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA7A6DB7-7605-443B-A515-21A5B7B4BA59}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

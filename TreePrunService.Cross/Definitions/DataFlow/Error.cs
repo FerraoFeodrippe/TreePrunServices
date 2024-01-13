@@ -1,5 +1,5 @@
 ﻿
-namespace TreePrunServices.Core.Commom.Definitions.DataFlow
+namespace TreePrunServices.Cross.Definitions.DataFlow
 {
     public class Error
     {

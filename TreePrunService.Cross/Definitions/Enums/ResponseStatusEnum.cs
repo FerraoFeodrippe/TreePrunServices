@@ -1,6 +1,6 @@
-﻿namespace TreePrunServices.Core.Commom.Enums
+﻿namespace TreePrunServices.Cross.Definitions.Enums
 {
-    public sealed class ResponseStatusEnum : BaseEnum<SwitchEnum>
+    public sealed class ResponseStatusEnum : BaseEnum<ResponseStatusEnum>
     {
         public static readonly ResponseStatusEnum Ok = new(1, "OK");
         public static readonly ResponseStatusEnum Error = new(2, "ERROR");

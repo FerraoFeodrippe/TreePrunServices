@@ -1,11 +1,11 @@
 ﻿
-using TreePrunServices.Core.Commom.Definitions.DataFlow;
 using TreePrunServices.Core.TreeManagement.Entities;
+using TreePrunServices.Cross.Definitions.DataFlow;
 
 namespace TreePrunServices.Core.TreeManagement.Contracts
 {
     public interface ITreeRepository
     {
-        Task<IEnumerable<Tree>> GetTreesAsync(DataRequest request);
+        Task<IEnumerable<TreePruning>> GetTreesAsync(DataRequest request);
     }
 }

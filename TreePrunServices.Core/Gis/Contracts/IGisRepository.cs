@@ -1,6 +1,6 @@
 ﻿
-using TreePrunServices.Core.Commom.Definitions.DataFlow;
 using TreePrunServices.Core.Gis.Entities;
+using TreePrunServices.Cross.Definitions.DataFlow;
 
 namespace TreePrunServices.Core.Gis.Contracts
 {

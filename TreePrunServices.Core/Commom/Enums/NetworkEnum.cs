@@ -1,4 +1,6 @@
-﻿namespace TreePrunServices.Core.Commom.Enums
+﻿using TreePrunServices.Cross.Definitions.Enums;
+
+namespace TreePrunServices.Core.Commom.Enums
 {
     public sealed class NetworkEnum: BaseEnum<NetworkEnum>
     {
